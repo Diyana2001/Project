@@ -1,0 +1,126 @@
+/* styles.css */
+
+body {
+    font-family: Georgia, Times New Roman, serif;
+    color: #333; /* Default text color */
+    background-color: #fff; /* Default background color */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Center main topics */
+h1, h3 {
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    color: #000; /* Black text color for header */
+    padding: 20px;
+}
+
+header h1 {
+    font-family: Arial, sans-serif; /* Header font */
+    font-size: 36px;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000; /* Black text color for links */
+    text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+    padding: 50px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-family: Verdana, sans-serif; /* Hero section font */
+    font-size: 32px;
+    margin: 0;
+}
+
+.hero p {
+    font-family: Garamond, serif; /* Hero section font */
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* About section styles */
+.about-section {
+    padding: 50px;
+}
+
+.about-section h1,
+.about-section h2,
+.about-section h3 {
+    color: #000; /* Black text color */
+}
+
+.about-section p {
+    color: #333; /* Dark grey text color */
+}
+
+/* Features section styles */
+.features {
+    padding: 50px;
+}
+
+.features h2 {
+    font-family: "Lucida Handwriting", cursive; /* Features section font */
+}
+
+.features p {
+    font-family: "Copperplate", fantasy; /* Features section font */
+}
+
+/* Footer styles */
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contact section styles */
+.contact {
+    padding: 50px;
+}
+
+.contact form {
+    margin-top: 20px;
+}
+
+.contact label,
+.contact input,
+.contact textarea,
+.contact button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.contact button {
+    background-color: #fff; /* White background for button */
+    color: #000; /* Black text color for button */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #000; /* Black background on hover */
+    color: #fff; /* White text color on hover */
+}
